@@ -1,11 +1,11 @@
 name: Deploy Infrastructure
 
-#on:
-#  push:
-#    branches:
-#      - main
-#    paths-ignore:
-#      - '.github/**'
+on:
+  push:
+    branches:
+      - main
+    paths-ignore:
+      - '.github/**'
 
 env:
   AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}

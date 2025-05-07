@@ -3,7 +3,7 @@ resource "aws_vpc" "minha_vpc" {
   instance_tenancy = "default"
 
   tags = {
-    Name = "tf-vpc-sucesso-13tst"
+    Name = "tf-vpc-dnieri-teste"
   }
 }
 
